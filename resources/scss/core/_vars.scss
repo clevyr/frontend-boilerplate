@@ -1,0 +1,18 @@
+// Custom bootstrap breakpoints
+$grid-breakpoints: (
+	xs: 0,
+	sm: 576px,
+	md: 768px,
+	lg: 992px,
+	xl: 1200px
+) !default;
+
+// Fonts
+$base-font-size: 16px;
+$title-font: sans-serif;
+$body-font: sans-serif;
+
+// CSS Transition Easings
+$timing: 0.3s;
+$ease: cubic-bezier(0.4, 0.25, 0.3, 1);
+$ease-out: cubic-bezier(0.25, 0.46, 0.45, 0.94);

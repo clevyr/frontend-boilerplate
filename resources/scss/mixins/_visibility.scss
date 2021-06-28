@@ -1,0 +1,11 @@
+/**
+    Visually hidden but still in DOM
+**/
+@mixin hidden {
+	position: absolute;
+	left: -100000%;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}

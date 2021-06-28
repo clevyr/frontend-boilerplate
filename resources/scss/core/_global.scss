@@ -1,0 +1,32 @@
+@viewport {
+	width: device-width;
+}
+
+* {
+	box-sizing: border-box;
+	max-width: 100%;
+	outline: none !important;
+}
+
+html,
+body {
+	height: auto;
+	min-height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	overflow-x: hidden;
+	font: 400 $base-font-size $body-font;
+	font-feature-settings: 'lnum' 1;
+
+	@include mq-max() {
+		font-size: 20px;
+	}
+
+	&.loading *:not(.loader) {
+		transition: none !important;
+	}
+}

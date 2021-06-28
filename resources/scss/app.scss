@@ -1,0 +1,23 @@
+// Variables
+@import 'core/vars';
+
+// Vendors
+@import '~normalize.css/normalize.css';
+@import 'vendors/bootstrap';
+
+// Functions
+@import 'functions/numbers';
+@import 'functions/font-sizes';
+
+// Mixins
+@import 'mixins/browsers';
+@import 'mixins/fluid-type';
+@import 'mixins/media-queries';
+@import 'mixins/placeholder';
+@import 'mixins/positioning';
+@import 'mixins/visibility';
+
+// Global styles
+@import 'core/global';
+@import 'core/container';
+@import 'core/typography';

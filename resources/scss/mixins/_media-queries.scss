@@ -1,0 +1,32 @@
+/**
+    Media Queries
+**/
+@mixin mq-max($size: map_get($grid-breakpoints, md)) {
+	@media (max-width: #{$size - 1}) {
+		@content;
+	}
+}
+
+@mixin mq-min($size: map_get($grid-breakpoints, md)) {
+	@media (min-width: #{$size}) {
+		@content;
+	}
+}
+
+@mixin mq-max-min($max: map_get($grid-breakpoints, md), $min: map_get($grid-breakpoints, md)) {
+	@media (max-width: #{$max - 1}) and (min-width: #{$min}) {
+		@content;
+	}
+}
+
+@mixin mq-min-height($size: map_get($grid-breakpoints, lg)) {
+	@media (min-height: #{$size}) {
+		@content;
+	}
+}
+
+@mixin mq-max-height($size: map_get($grid-breakpoints, lg)) {
+	@media (max-height: #{$size - 1}) {
+		@content;
+	}
+}

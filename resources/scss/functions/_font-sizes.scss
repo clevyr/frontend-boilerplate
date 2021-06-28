@@ -1,0 +1,12 @@
+/**
+    Convert a pixel value to the rem (relative font size to the <body> font-size) value
+**/
+@function rem($pixels) {
+	@return strip-unit($pixels) /  strip-unit($base-font-size) * 1rem;
+}
+/**
+    Convert a pixel value to the em value (relative to the parent container's font-size)
+**/
+@function em($pixels, $context: $base-font-size) {
+	@return strip-unit($pixels) /  strip-unit($context) * 1em;
+}

@@ -1,0 +1,29 @@
+/**
+    Center element with transforms
+**/
+@mixin center($val1: 50%, $val2: 50%) {
+	top: #{$val2};
+	left: #{$val1};
+	transform: translate(-#{$val1}, -#{$val2});
+}
+
+@mixin center-vertically($top: 50%) {
+	top: #{$top};
+	transform: translateY(-#{$top});
+}
+
+@mixin center-horizontally($left: 50%) {
+	left: #{$left};
+	transform: translateX(-#{$left});
+}
+
+/**
+    Clear children
+**/
+@mixin clearfix {
+	&:after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+}

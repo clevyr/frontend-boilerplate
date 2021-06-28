@@ -1,0 +1,27 @@
+.container {
+	position: relative;
+	width: map_get($grid-breakpoints, xl);
+	max-width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+
+	@include mq-min() {
+		max-width: 95%;
+	}
+
+	&.xlarge {
+		width: map_get($grid-breakpoints, xl);
+	}
+
+	&.large {
+		width: map_get($grid-breakpoints, lg);
+	}
+
+	&.medium {
+		width: map_get($grid-breakpoints, md);
+	}
+
+	&.small {
+		width: map_get($grid-breakpoints, sm);
+	}
+}
