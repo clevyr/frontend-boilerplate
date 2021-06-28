@@ -1,4 +1,11 @@
-# SCSS
+# Clevyr Frontend Standards
+
+[Clevyr Frontend Standards](https://clevyr.atlassian.net/wiki/spaces/FED/pages/1090977806/Clevyr+Frontend+Standards)  
+[Clevyr UX Standards](https://clevyr.atlassian.net/wiki/spaces/CREAT/pages/1095761956/Clevyr+UX+Standards)  
+
+---
+
+## SCSS
 
 ----
 
