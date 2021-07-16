@@ -4,15 +4,18 @@
     "google"
   ],
   "env": {
-    "node": true
+    "node": true,
+    "es6": true
   },
   "rules": {
     "object-curly-spacing": [ "error", "always" ],
     "require-jsdoc": "off",
-    "indent": [ "error", 4, { "SwitchCase": 1 } ],
+    "indent": [ "error", "tab", { "SwitchCase": 1 } ],
     "max-len": [ "error", 1000 ],
     "no-unused-vars": [ "error", { "varsIgnorePattern": "^_", "argsIgnorePattern": "^_" } ],
-    "valid-jsdoc": "off"
+    "valid-jsdoc": "off",
+    "quotes": ["error", "single"],
+    "no-tabs": "off"
   },
   "root": true,
   "parserOptions": {
