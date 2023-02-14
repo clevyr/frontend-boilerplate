@@ -1,3 +1,6 @@
+# - DEPRECATED!!! - 
+This repo is out of date. We have moved to a new stack. Get with Grant Vinson or Jer Brand to get new frontend tools and tricks.  
+
 # Clevyr Frontend Standards
 
 [Clevyr Frontend Standards](https://clevyr.atlassian.net/wiki/spaces/FED/pages/1090977806/Clevyr+Frontend+Standards)  
